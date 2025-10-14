@@ -1,13 +1,37 @@
 INSERT INTO caracteristica (nome, descricao) VALUES 
 ('tamanho tela', 'tela de 15 plg'),
 ('memoria ram', '8gb ram'),
-('', ''),
-('Notebook', 'computador portatil'),
-('Notebook', 'computador portatil'),
-('Notebook', 'computador portatil'),
-('Notebook', 'computador portatil'),
-('Notebook', 'computador portatil'),
-('Notebook', 'computador portatil');
+('memoria rom', '1tb rom'),
+('som', 'esterio'),
+('rede', 'wifi eternet'),
+('bateria', '128 mah'),
+('capacidade', '550 litros '),
+('eficiencia', 'A++'),
+('voltagem', '220'),
+('descongelar', 'automatico'),
+('peso', '100kg'),
+('som', 'mono'),
+('eficiencia', 'A'),
+('resolucao', '4k'),
+('peso', '13,8kg '),
+('cor', 'azul'),
+('tamanho tela', 'tela de 15 plg'),
+('memoria ram', '8gb ram'),
+('memoria rom', '1tb rom'),
+('som', 'esterio'),
+('rede', 'wifi eternet'),
+('bateria', '128 mah'),
+('capacidade', '550 litros '),
+('eficiencia', 'A++'),
+('voltagem', '220'),
+('descongelar', 'manual'),
+('peso', '200kg'),
+('som', 'mono'),
+('eficiencia', 'B'),
+('resolucao', '8k'),
+('peso', '24,8kg '),
+('cor', 'azul'),
+('cor', 'vermelho');
 
 
 
@@ -15,22 +39,6 @@ INSERT INTO caracteristica (nome, descricao) VALUES
 
 
 
-
-
-('Geladeira', 'duas portas com , varios compartimentos'),
-('MotorolaA06', 'Smartfone preto, 50000mah, 4gb ram, 128 rom.'),
-('Coleira', 'Coleira para cachorro, azul'),
-('tv sansung', '100 polegadas, 8k, dualatons de audio, com youtube e alex'),
-('Notebookacer', 'computador portatil'),
-('Geladeira lg', 'duas portas com , varios compartimentos'),
-('sansungs20', 'Smartfone preto, 4000mah, 6gb ram, 256gb rom.'),
-('chapeu', 'chapeu de palha para festa'),
-('tv lg', '80 polegadas, 8k, dualatons de audio, com youtube e alex'
-('Notebookacer', 'computador portatil'),
-('Geladeira lg', 'duas portas com , varios compartimentos'),
-('sansungs20', 'Smartfone preto, 4000mah, 6gb ram, 256gb rom.'),
-('chapeu', 'chapeu de palha para festa'),
-('tv lg', '80 polegadas, 8k, dualatons de audio, com youtube e alex');
 
 
 
