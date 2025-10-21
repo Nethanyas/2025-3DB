@@ -1,0 +1,26 @@
+SELECT p.nome, p.descricao
+FROM Produto as p
+INNER JOIN Estoque as e 
+INNER JOIN loja as l
+ON p.id = e.id_produto
+AND l.id = e.id_loja
+WHERE l.cidade LIKE "%Sao Paulo%";
+
+codigo 1
+
+SELECT p.nome, c.descricao
+FROM Produto as p
+INNER JOIN produto_caracteristica as pc 
+INNER JOIN caracteristica as c
+ON p.id = pc.id_produto
+AND c.id = pc.id_caracteristica;
+
+codigo 2
+
+SELECT l.nome, l.cidade, sum(e.quantidade_disponivel)
+FROM Loja as l
+INNER JOIN estoque as e 
+ON l.id = e.id_loja
+GROUP BY l.cidade;
+
+codigo 3
