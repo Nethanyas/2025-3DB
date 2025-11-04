@@ -16,6 +16,6 @@
 
 
 
-    header("Location: produto.php");
+    header("Location: produtos.php");
     exit;
 ?>
