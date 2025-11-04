@@ -65,16 +65,33 @@
         </table>
         
         <form action="adicionar.php" method="POST">
-            <input type="text" name="txtNome" 
-            placeholder="Digite o nome do aluno.." required>
+            <input type="text" name="nome" 
+            placeholder="Digite o nome do produto.." required>
 
-            <input type="email" name="txtEmail" 
-            placeholder="Digite o email do aluno.." required>
+            <input type="descricao" name="descricao" 
+            placeholder="Digite a descricao.." required>
             
-            <input type="date" name="txtData" 
-            placeholder="Digite a data de nascimento do aluno..">
+            <input type="preco" name="preco" 
+            placeholder="Digite o preço">
 
-            <input type="submit" value="Salvar" name="btnSalvar" class="btn btn-success">
+            <input type="tipo" name="tipo" 
+            placeholder="Digite o tipo">
+
+            <input type="categoria" name="categoria" 
+            placeholder="Digite a categoria">
+
+            <input type="data_lancamento" name="data_lancamento" 
+            placeholder="Digite a data_lancamento">
+
+            <input type="desconto" name="desconto" va
+            placeholder="Digite o desconto">
+
+            <td><form action="adicionar.php" method="POST"> 
+                        <button class="btn btn-danger" name="btnadicionar" 
+                        value="<?php echo $linha['id'];?>">adicionar</button>
+                    </form></td>
+
+            
         </form>
     </div>
 </body>

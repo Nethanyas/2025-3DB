@@ -1,5 +1,6 @@
 <?php
     include 'conexao.php';
+    $id = $_POST['btnadicionar'];
 
     $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
@@ -7,11 +8,11 @@
     $tipo = $_POST['tipo'];
     $categoria = $_POST['categoria'];
     $data_lancamento = $_POST['data_lancamento'];
-    $desconto = $_POST['desconto'];
+    $desconto_usados = $_POST['desconto_usados'];
 
-    $sql = $pdo->prepare("INSERT INTO produto (nome, descricao, preco, tipo, categoria, data_lancamento, desconto) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    $sql = $pdo->prepare("INSERT INTO produto (nome, descricao, preco, tipo, categoria, data_lancamento, desconto_usados) VALUES (?, ?, ?, ?, ?, ?, ?)");
 
-    $sql->execute([$nome, $descricao, $preco, $tipo, $categoria, $data_lancamento, $desconto]);
+    $sql->execute([$nome, $descricao, $preco, $tipo, $categoria, $data_lancamento, $desconto_usados]);
 
     header("Location: produtos.php");
     exit;
